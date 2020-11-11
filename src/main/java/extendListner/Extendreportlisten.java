@@ -68,7 +68,7 @@ public class Extendreportlisten {
        public static String captureScreenShot(WebDriver driver) throws IOException{
     	       TakesScreenshot screen=(TakesScreenshot) driver; 
     	       File src=screen.getScreenshotAs(OutputType.FILE);
-    	        String dest ="var/lib/jenkins/workspace/screenshots/"+getcurrentdateandtime()+".png";
+    	        String dest ="/var/lib/jenkins/workspace/screenshots/"+getcurrentdateandtime()+".png";
     	    		   File target=new File(dest);
     	       FileUtils.copyFile(src,target);
     	       return dest;
