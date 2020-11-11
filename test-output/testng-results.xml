@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-08T20:51:32 IST" name="Suite" finished-at="2020-11-08T20:53:30 IST" duration-ms="117910">
+    <groups>
+    </groups>
+    <test started-at="2020-11-08T20:51:32 IST" name="Test" finished-at="2020-11-08T20:53:30 IST" duration-ms="117910">
+      <class name="runner.UserManageRunner">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:runner.UserManageRunner@4681c175]" started-at="2020-11-08T20:51:32 IST" name="setupClass" finished-at="2020-11-08T20:51:33 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.UserManageRunner@4681c175]" started-at="2020-11-08T20:51:33 IST" name="feature" data-provider="features" finished-at="2020-11-08T20:53:30 IST" duration-ms="117110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Management Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="teardownclass()[pri:0, instance:runner.UserManageRunner@4681c175]" started-at="2020-11-08T20:53:30 IST" name="teardownclass" finished-at="2020-11-08T20:53:30 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownclass -->
+      </class> <!-- runner.UserManageRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

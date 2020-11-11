@@ -1,0 +1,5 @@
+#surefire_0
+#Wed Nov 11 14:25:15 IST 2020
+user.dir=/var/lib/jenkins/workspace/login_module_pro
+localRepository=/var/lib/jenkins/.m2/repository
+basedir=/var/lib/jenkins/workspace/login_module_pro
