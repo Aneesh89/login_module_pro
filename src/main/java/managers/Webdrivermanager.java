@@ -19,7 +19,8 @@ public class Webdrivermanager {
 	private static final String CHROME_DRIVER_PROPERTY = "webdriver.chrome.driver";
 
 	public Webdrivermanager() {
-		driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
+		//driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
+		driverType=FIREFOX;
 		environmentType = FileReaderManager.getInstance().getConfigReader().getEnvironment();
 	}
 
