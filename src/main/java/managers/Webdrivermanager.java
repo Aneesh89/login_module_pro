@@ -20,7 +20,7 @@ public class Webdrivermanager {
 
 	public Webdrivermanager() {
 		//driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
-		driverType=FIREFOX;
+		driverType='FIREFOX';
 		environmentType = FileReaderManager.getInstance().getConfigReader().getEnvironment();
 	}
 
