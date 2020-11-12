@@ -46,7 +46,6 @@ public class Webdrivermanager {
 	}
 
 	private WebDriver createLocalDriver() {
-		console.log("Selected Browser is **************"+ driverType);
 		switch (driverType) {
 		case FIREFOX:
 			System.setProperty(FIREFOX_DRIVER_PROPERTY,"/usr/bin/geckodriver");
