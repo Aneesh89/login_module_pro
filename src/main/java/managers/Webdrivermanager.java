@@ -19,8 +19,7 @@ public class Webdrivermanager {
 	private static final String CHROME_DRIVER_PROPERTY = "webdriver.chrome.driver";
 
 	public Webdrivermanager() {
-		//driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
-		driverType='FIREFOX';
+		driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
 		environmentType = FileReaderManager.getInstance().getConfigReader().getEnvironment();
 	}
 
@@ -47,6 +46,7 @@ public class Webdrivermanager {
 	}
 
 	private WebDriver createLocalDriver() {
+		console.log("Selected Browser is **************"+ driverType);
 		switch (driverType) {
 		case FIREFOX:
 			System.setProperty(FIREFOX_DRIVER_PROPERTY,"/usr/bin/geckodriver");
